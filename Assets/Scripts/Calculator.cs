@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class Calculator : MonoBehaviour
 {
-    List<double> numbers;
-    List<string> operators;
+    private List<double> numbers;
+    private List<string> operators;
 
-    double answer = 0;
+    private double answer = 0;
 
     public string Calculate(string equation)
     {

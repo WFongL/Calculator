@@ -1144,7 +1144,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48.65
+  m_fontSize: 74.1
   m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2017,6 +2017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c2298bd918fa74f83108a26f65cd47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  display: {fileID: 594932055}
   calculator: {fileID: 1213637839}
 --- !u!114 &1280136968
 MonoBehaviour:

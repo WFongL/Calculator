@@ -4,16 +4,11 @@ using TMPro;
 
 public class DisplayController : MonoBehaviour
 {
-    private TMP_Text display;
+    [SerializeField] private TMP_Text display;
     public Calculator calculator;
 
     List<char> digits = new List<char>(11) { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ',' };
     List<char> operators = new List<char>(4) { '+', '-', '*', '/', '^' };
-
-    void Start()
-    {
-        display = GameObject.Find("DisplayText").GetComponent<TMP_Text>();
-    }
 
     public void UpdateDisplayText(string newValue) // validation check 
     {

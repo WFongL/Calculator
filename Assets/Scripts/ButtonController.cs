@@ -5,7 +5,7 @@ public class ButtonController : MonoBehaviour
     public string value;
     public DisplayController displayController;
 
-    void Start()
+    public void Start()
     {
         displayController = GameObject.Find("DisplayPanel").GetComponent<DisplayController>();
     }
