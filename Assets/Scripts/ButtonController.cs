@@ -3,6 +3,7 @@ using UnityEngine;
 public class ButtonController : MonoBehaviour
 {
     [SerializeField] public DisplayController displayController;
+
     public string value;
 
     public void AppendValueToDisplay()
