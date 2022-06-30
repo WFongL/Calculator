@@ -2,13 +2,8 @@ using UnityEngine;
 
 public class ButtonController : MonoBehaviour
 {
+    [SerializeField] public DisplayController displayController;
     public string value;
-    public DisplayController displayController;
-
-    public void Start()
-    {
-        displayController = GameObject.Find("DisplayPanel").GetComponent<DisplayController>();
-    }
 
     public void AppendValueToDisplay()
     {

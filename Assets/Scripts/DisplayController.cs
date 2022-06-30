@@ -7,8 +7,8 @@ public class DisplayController : MonoBehaviour
     [SerializeField] private TMP_Text display;
     public Calculator calculator;
 
-    List<char> digits = new List<char>(11) { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ',' };
-    List<char> operators = new List<char>(4) { '+', '-', '*', '/', '^' };
+    private List<char> digits = new List<char>(11) { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ',' };
+    private List<char> operators = new List<char>(4) { '+', '-', '*', '/', '^' };
 
     public void UpdateDisplayText(string newValue) // validation check 
     {
